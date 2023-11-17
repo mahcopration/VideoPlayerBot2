@@ -1,7 +1,7 @@
 {
     "name": "Telegram Video Stream Bot",
     "description": "An Telegram Bot By @ZauteKm To Stream Videos in Voice Chat",
-    "repository": "https://github.com/ZauteKm/VideoStreamBot/tree/master",
+    "repository": "https://github.com/mahcopration/VideoPlayerBot2",
     "logo": "https://telegra.ph/file/117de96dbfbfea2ce59a6.png",
     "stack": "container",
     "keywords": [
@@ -54,12 +54,6 @@
         "description": "A reply message to those who message the USER account in PM. Make it blank if you do not need this feature.",
         "value": "Hello Sir, I'm a bot to stream videos on telegram voice chat, not having time to chat with you 😂!",
         "required": false
-      }
-    },
-    "formation": {
-      "worker": {
-        "quantity": 1,
-        "size": "free"
       }
     },
     "buildpacks": [
